@@ -38,16 +38,18 @@
     <nav class="bg-white shadow-lg fixed w-full z-50 top-0">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
-                <div class="flex items-center space-x-3">
-                    <img src="images/svg/ltdo_bear.svg" alt="La Tana dell'Orso Logo" class="h-12 w-12">
-                    <h1 class="text-xl font-bold text-gray-800">Associazione La Tana dell'Orso APS</h1>
-                </div>
+                <a href="#home">
+                    <div class="flex items-center space-x-3">
+                        <img src="images/svg/solo_logo_ltdo.svg" alt="La Tana dell'Orso Logo" class="h-12 w-12">
+                        <h1 class="text-xl font-bold text-gray-800">Associazione La Tana dell'Orso APS</h1>
+                    </div>
+                </a>
 
                 <!-- Desktop Menu -->
                 <div class="hidden lg:flex items-center space-x-6">
-                    <a href="#home" class="text-gray-600 hover:text-tana-teal transition">HOME</a>
                     <a href="#progetto" class="text-gray-600 hover:text-tana-teal transition">IL PROGETTO</a>
                     <a href="#casa" class="text-gray-600 hover:text-tana-teal transition">LA CASA</a>
+                    <a href="#tipi-di-ospitalita" class="text-gray-600 hover:text-tana-teal transition">OSPITALITA’</a>
                     <a href="#attivita" class="text-gray-600 hover:text-tana-teal transition">ATTIVITÀ</a>
                     <a href="#storia" class="text-gray-600 hover:text-tana-teal transition">STORIA/CHI SIAMO</a>
                     <a href="#gallery" class="text-gray-600 hover:text-tana-teal transition">EVENTI</a>
@@ -65,10 +67,10 @@
 
             <!-- Mobile Menu -->
             <div id="mobile-menu" class="hidden lg:hidden pb-4">
-                <a href="#home" class="block py-3 px-4 text-gray-600 hover:bg-tana-teal hover:text-white transition">HOME</a>
                 <a href="#progetto" class="block py-3 px-4 text-gray-600 hover:bg-tana-teal hover:text-white transition">IL PROGETTO</a>
                 <a href="#casa" class="block py-3 px-4 text-gray-600 hover:bg-tana-teal hover:text-white transition">LA CASA</a>
                 <a href="#attivita" class="block py-3 px-4 text-gray-600 hover:bg-tana-teal hover:text-white transition">ATTIVITÀ</a>
+                <a href="#tipi-di-ospitalita" class="block py-3 px-4 text-gray-600 hover:bg-tana-teal hover:text-white transition">OSPITALITA’</a>
                 <a href="#storia" class="block py-3 px-4 text-gray-600 hover:bg-tana-teal hover:text-white transition">STORIA/CHI SIAMO</a>
                 <a href="#gallery" class="block py-3 px-4 text-gray-600 hover:bg-tana-teal hover:text-white transition">GALLERY</a>
                 <a href="#contatti" class="block py-3 px-4 text-gray-600 hover:bg-tana-teal hover:text-white transition">CONTATTI</a>
@@ -111,7 +113,7 @@
             </div>
 
             <div class="grid md:grid-cols-3 gap-6 mb-12">
-                <img src="images/img45.jpg" alt="Interno" class="w-full h-64 object-cover rounded-lg shadow-lg">
+                <img src="images/img41.jpg" alt="Interno" class="w-full h-64 object-cover rounded-lg shadow-lg">
                 <img src="images/img46.jpg" alt="Orto" class="w-full h-64 object-cover rounded-lg shadow-lg">
                 <img src="images/img49.jpg" alt="Inverno" class="w-full h-64 object-cover rounded-lg shadow-lg">
             </div>
@@ -223,14 +225,14 @@
                 </div>
                 <div>
                     <h2 class="text-3xl font-bold mb-6 text-gray-800">I Soci Fondatori</h2>
-                    <div class="bg-[url(images/img55.jpg)] bg-cover bg-center h-full w-full rounded-lg shadow-lg"></div>
+                    <div class="bg-[url(images/img55.jpg)] bg-cover bg-center h-full w-full rounded-lg shadow-lg hidden md:block"></div>
+                    <img src="images/img55.jpg" alt="Soci Fondatori di La Tana dell'Orso" class="h-full w-full mx-auto rounded-lg shadow-lg md:hidden">
                 </div>
             </div>
 
             <div class="text-center">
                 <div class="inline-block mb-8">
-                    <img src="images/svg/ltdo_bear.svg" alt="La Tana dell'Orso Logo" class="h-64 w-64 mx-auto opacity-30">
-                    <h2 class="text-8xl font-bold text-gray-800">La Tana dell'Orso</h2>
+                    <img src="images/svg/logo_con_testo_ltdo.svg" alt="La Tana dell'Orso Logo" class="h-96 w-96 mx-auto">
                 </div>
                 <p class="text-3xl font-bold mb-6 text-gray-800">Sei interessato alle nostre attività o a collaborare?</p>
                 <a href="#contatti" class="inline-block bg-tana-teal text-white px-12 py-4 rounded-lg text-xl font-semibold hover:bg-opacity-90 transition">
@@ -366,80 +368,31 @@
     </section>
 
     <!-- Progetto Dettaglio -->
-    <section class="py-20 bg-white">
+    <section class="py-20 bg-white" id="tipi-di-ospitalita">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-2 gap-12 items-center mb-12">
-                <img src="images/svg/ltdo_bear.svg" alt="Logo la tana dell'orso" class="w-full h-96 object-cover">
+                <img src="images/svg/solo_logo_ltdo.svg" alt="Logo la tana dell'orso" class="w-64 h-64 object-cover">
                 <div>
                     <h2 class="text-4xl md:text-5xl font-bold mb-6 text-gray-800">2 DIVERSI TIPI DI OSPITALITA’</h2>
-                    <p class="text-2xl text-gray-600">Una casa, 3 funzioni: abitazione di famiglia, ospitalità solidale ed ospitalità turistica</p>
+                    <p class="text-3xl text-orange-800 font-bold">Una casa, 3 funzioni: abitazione di famiglia, ospitalità solidale ed ospitalità turistica</p>
                 </div>
             </div>
 
-            <div class="mb-12">
-                <h2 class="text-3xl font-bold mb-4 text-gray-800">OSPITALITA’ SOLIDALE</h2>
-                <p class="text-lg text-gray-700 leading-relaxed">
-                 La Tana dell'Orso nasce nel 2014 per offrire a gruppi di minori accolti in comunità educative di trascorrere una settimana di vacanza in montagna. L'ospitalità è offerta gratuitamente ed organizzata in modo da garantire il necessario supporto nel rispetto dell'autonomia dei singoli gruppi. Ogni gruppo, composto da minori e accompagnatori, utilizza l'intero piano terra della casa per una settimana. La gestione quotidiana dei gruppi, l’organizzazione dei pasti, la pulizia degli spazi e la gestione delle attività sono  autonome: noi restiamo disponibili come supporto pratico e riferimento sul territorio. L'esperienza non è strutturata come un campus ma come una vita normale in una casa di montagna: escursioni, gite in bicicletta ed attività all’aperto. La casa viene lasciata pronta per il gruppo successivo. Il progetto è attivo dal 2014 e coinvolge più realtà provenienti principalmente dal Veneto e dal Friuli Venezia Giulia. Visti i tanti risvolti positivi molte Case Famiglia ripetono l'esperienza e ciò permette ai ragazzi ed alle ragazze loro ospiti di ritrovare un luogo conosciuto e relazioni già costruite.   .
-                </p>
-            </div>
+            <div class="grid lg:grid-cols-2 gap-12 items-center mb-12">
+                <div class="lg:mb-12">
 
-            <div class="mb-12">
-                <h2 class="text-3xl font-bold mb-4 text-gray-800">OSPITALITA’ TURISTICA</h2>
-                <p class="text-lg text-gray-700 leading-relaxed mb-4">
-                    .
-                </p>
-                <p class="text-lg text-gray-700 leading-relaxed mb-4">La gestione quotidiana è autonoma:</p>
-                <ul class="space-y-2 text-lg text-gray-700 mb-4 ml-6">
-                    <li>• organizzazione dei pasti</li>
-                    <li>• pulizia degli spazi</li>
-                    <li>• gestione delle attività</li>
-                </ul>
-                <p class="text-lg text-gray-700 leading-relaxed mb-4">
-                    La casa viene lasciata pronta per il gruppo successivo.
-                </p>
-                <p class="text-lg text-gray-700 leading-relaxed">
-                    Noi restiamo disponibili come supporto pratico e riferimento sul territorio
-                </p>
-            </div>
-
-            <div class="bg-tana-teal text-white p-12 rounded-lg mb-12">
-                <h2 class="text-3xl font-bold mb-6 text-center">PERCHE' ESISTE ANCHE L'OSPITALITA' PER I TURISTI?</h2>
-                <h3 class="text-2xl font-semibold mb-6 text-center">Una casa, 3 funzioni: abitazione di famiglia, ospitalità solidale ed ospitalità turistica</h3>
-                <p class="text-lg leading-relaxed mb-4 text-gray-900 opacity-80">
-                    Per rendere sostenibile il Progetto, la casa viene utilizzata anche da piccoli gruppi di turisti ed altri ospiti nei periodi liberi
-                    dalle case famiglia. Il piano superiore rimane la residenza della famiglia che ha fatto partire l'iniziativa.
-                </p>
-                <p class="text-lg leading-relaxed text-gray-900 opacity-80">
-                    I soggiorni dei turisti contribuiscono a coprire i costi di gestione e permettono di continuare a offrire gratuitamente le
-                    settimane dedicate alle comunità.
-                </p>
-            </div>
-
-            <div class="grid md:grid-cols-2 gap-12">
-                <div>
-                    <h2 class="text-3xl font-bold mb-6 text-gray-800">Il territorio come parte educativa</h2>
-                    <p class="text-lg text-gray-700 leading-relaxed mb-4">
-                        Le attività principali sono semplici ma molto arricchenti:
-                    </p>
-                    <ul class="space-y-2 text-lg text-gray-700 mb-4">
-                        <li>• camminate</li>
-                        <li>• gite in bicicletta</li>
-                        <li>• Attività all'aperto</li>
-                    </ul>
+                    <h2 class="text-3xl font-bold mb-4 text-gray-800">OSPITALITA’ SOLIDALE</h2>
                     <p class="text-lg text-gray-700 leading-relaxed">
-                        L'esperienza non è strutturata come un campus ma come
-                        una vita normale in una casa di montagna.
+                    La Tana dell'Orso nasce nel 2014 per offrire a gruppi di minori accolti in comunità educative di trascorrere una settimana di vacanza in montagna. L'ospitalità è offerta gratuitamente ed organizzata in modo da garantire il necessario supporto nel rispetto dell'autonomia dei singoli gruppi. Ogni gruppo, composto da minori e accompagnatori, utilizza l'intero piano terra della casa per una settimana. La gestione quotidiana dei gruppi, l’organizzazione dei pasti, la pulizia degli spazi e la gestione delle attività sono  autonome: noi restiamo disponibili come supporto pratico e riferimento sul territorio. L'esperienza non è strutturata come un campus ma come una vita normale in una casa di montagna: escursioni, gite in bicicletta ed attività all’aperto. La casa viene lasciata pronta per il gruppo successivo. Il progetto è attivo dal 2014 e coinvolge più realtà provenienti principalmente dal Veneto e dal Friuli Venezia Giulia. Visti i tanti risvolti positivi molte Case Famiglia ripetono l'esperienza e ciò permette ai ragazzi ed alle ragazze loro ospiti di ritrovare un luogo conosciuto e relazioni già costruite.
                     </p>
+                    <img src="images/img45.jpg" alt="Gallery 4" class="w-full h-96 object-cover rounded-lg shadow-lg mt-6">
                 </div>
-                <div>
-                    <h2 class="text-3xl font-bold mb-6 text-gray-800">Continuità</h2>
+
+                <div class="mb-12">
+                    <img src="images/img57.jpg" alt="Gallery 4" class="w-full h-96 object-cover rounded-lg shadow-lg mb-6">
+                    <h2 class="text-3xl font-bold mb-4 text-gray-800">OSPITALITA’ TURISTICA</h2>
                     <p class="text-lg text-gray-700 leading-relaxed mb-4">
-                        Il progetto è attivo dal 2014 e coinvolge più realtà provenienti principalmente dal Veneto e
-                        dal Friuli Venezia Giulia.
-                    </p>
-                    <p class="text-lg text-gray-700 leading-relaxed">
-                        Visti i tanti risvolti positivi molte Case Famiglia ripetono l'esperienza e ciò permette ai ragazzi
-                        ed alle ragazze loro ospiti di ritrovare un luogo conosciuto e relazioni già costruite.
+                        Per rendere sostenibile il Progetto, la casa viene utilizzata anche da piccoli gruppi di turisti ed altri ospiti nei periodi liberi dalle Case Famiglia. Il piano superiore rimane la residenza della famiglia che ha fatto partire l'iniziativa. I soggiorni dei turisti contribuiscono a coprire i costi di gestione e permettono di continuare ad offrire gratuitamente le settimane dedicate alle comunità. Anche i turisti trovano in noi un supporto discreto e sempre disponibile a dare spunti e suggerimenti per le attività possibili nei dintorni e per fornire informazioni sul territorio locale. La nostra passione per la bicicletta e la conoscenza approfondita dei percorsi cicloturistici italiani e transfrontalieri verso Austria e Slovenia unite alla presenza di una ciclo-officina sono molto apprezzate dai nostri ospiti che viaggiano in bicicletta. La vicinanza alle piste di sci in Italia, Slovenia ed Austria rende La Tana dell’Orso un punto di partenza ideale per gli sciatori durante il periodo invernale. Negli altri periodi c’è solo l’imbarazzo della scelta per chi cerca opportunità di passeggiate, gite ed escursioni in montagna grazie alla ricca rete di sentieri della zona.
                     </p>
                 </div>
             </div>
@@ -712,8 +665,7 @@
     <footer class="bg-tana-teal text-white py-16">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
-                <img src="images/svg/ltdo_bear.svg" alt="La Tana dell'Orso Logo" class="h-64 w-64 mx-auto opacity-60">
-                <h3 class="text-3xl font-bold mb-6">Associazione La Tana dell'Orso APS</h3>
+                <img src="images/svg/logo_con_testo_ltdo.svg" alt="La Tana dell'Orso Logo" class="h-64 w-64 mx-auto">
                 <p class="text-xl mb-3">Fusine in Valromana, Tarvisio (UD)</p>
                 <p class="text-lg mb-6">email: info.latanadellorso2026@gmail.com | tel: 346 0147058</p>
                 <p class="text-white/80 text-sm">&copy; 2026 Associazione La Tana dell'Orso APS. Tutti i diritti riservati.</p>
